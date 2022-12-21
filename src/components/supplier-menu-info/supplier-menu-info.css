@@ -1,0 +1,32 @@
+.menuProductsFrom{
+    color: white;
+    font-family: "InterBlack";
+    margin-left: 10px;
+}
+
+.showProductsCard{
+    background-color: #1E1E1E !important;
+}
+
+.showProductsCard:hover{
+    color: #D76525;
+    cursor: pointer;
+    border-color: #D76525;
+}
+
+.productsContainerCard{
+    overflow: auto;
+    max-height: 455px;
+}
+
+.productsContainerCard .productCard{
+    background-color: #1E1E1E !important;
+}
+
+.my-modal .modal-content{
+    color: white;
+    font-family: "InterBlack";
+    margin-left: 10px;
+    background-color: #363636;
+}
+

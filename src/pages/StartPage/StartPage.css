@@ -1,0 +1,24 @@
+.startPage{
+    color: white;
+    font-family: "InterBlack";
+}
+
+.startPage h2{
+    color: #D76525;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+@media(max-width:675px) {
+    .aboutImg {
+        display: none
+    }
+    .nullSpase{
+        display: none
+    }
+}
+
+@media(max-width:960px) {
+    .nullSpase{
+        display: none
+    }
+}

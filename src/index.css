@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "InterBlack";
+  src: local("InterBlack"),
+  url("./fonts/Inter-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "InterLight";
+  src: local("InterLight"),
+  url("./fonts/Inter-Light.ttf") format("truetype");
+}
+

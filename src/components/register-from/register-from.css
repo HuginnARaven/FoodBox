@@ -1,0 +1,29 @@
+.registerForm{
+
+}
+
+.singupBtn{
+    --bs-btn-bg: #D76525 !important;
+    --bs-btn-hover-bg: rgba(215, 101, 37, 0.6) !important;
+    --bs-btn-active-bg: transparent !important;
+    --bs-btn-active-border-color: transparent !important;
+    --bs-btn-hover-border-color: #D76525 !important;
+    --bs-btn-border-color: transparent !important;
+    --bs-btn-disabled-bg: #D76525 !important;
+    --bs-btn-disabled-border-color: rgba(215, 101, 37, 0.6) !important;
+}
+
+.registerForm .text-muted {
+    color: #a93f3f!important;
+}
+
+.my-modal .modal-content{
+    color: white;
+    font-family: "InterBlack";
+    margin-left: 10px;
+    background-color: #363636;
+}
+
+.modal-footer {
+    justify-content: center !important;
+}

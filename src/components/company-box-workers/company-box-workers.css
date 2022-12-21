@@ -1,0 +1,39 @@
+.boxWorkerFrom{
+    color: white;
+    font-family: "InterBlack";
+}
+
+.boxWorkerFrom .btn{
+    --bs-btn-bg: #D76525;
+    --bs-btn-hover-bg: rgba(215, 101, 37, 0.6);
+    --bs-btn-active-bg: transparent;
+    --bs-btn-active-border-color: transparent;
+    --bs-btn-hover-border-color: #D76525;
+    --bs-btn-border-color: transparent;
+}
+
+.my-modal .addWorkerDtn{
+    --bs-btn-bg: #D76525;
+    --bs-btn-hover-bg: rgba(215, 101, 37, 0.6);
+    --bs-btn-active-bg: transparent;
+    --bs-btn-active-border-color: transparent;
+    --bs-btn-hover-border-color: #D76525;
+    --bs-btn-border-color: transparent;
+}
+
+.workersCard{
+    overflow: auto;
+    max-height: 375px;
+}
+
+.workersCard .workerCard{
+    background-color: #1E1E1E !important;
+}
+
+.my-modal .modal-content{
+    color: white;
+    font-family: "InterBlack";
+    margin-left: 10px;
+    background-color: #363636;
+}
+

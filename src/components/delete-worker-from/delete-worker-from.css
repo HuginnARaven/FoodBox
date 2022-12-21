@@ -1,0 +1,31 @@
+.deleteWorkerFrom{
+    color: white;
+    font-family: "InterBlack";
+    margin-left: 10px;
+}
+
+.my-modal .modal-content{
+    color: white;
+    font-family: "InterBlack";
+    margin-left: 10px;
+    background-color: #363636;
+}
+
+/*.my-modal .modal-content{*/
+/*    color: white;*/
+/*    font-family: "InterBlack";*/
+/*    margin-left: 10px;*/
+/*    background-color: #363636;*/
+/*}*/
+
+/*.my-modal .modal-content .saveBtn{*/
+/*    color: white;*/
+/*    font-family: "InterBlack";*/
+/*    margin-left: 10px;*/
+/*    background-color: #D76525;*/
+/*}*/
+
+/*.deleteWorkerFrom .btnDelete{*/
+/*    background-color: #D72525;*/
+/*}*/
+

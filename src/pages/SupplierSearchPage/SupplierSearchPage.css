@@ -1,0 +1,24 @@
+.supplierSearchPage{
+    color: white;
+    font-family: "InterBlack";
+}
+
+.supplierSearchPageContent{
+    background-color: #1E1E1E;
+    height: 750px;
+    overflow: auto;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px black;
+    border: solid #1E1E1E;
+}
+
+.supplierSearchPage .btn-outline-warning{
+    --bs-btn-color: #D76525;
+    --bs-btn-border-color: #D76525;
+    --bs-btn-active-bg: rgba(215, 101, 37, 0.6);
+    --bs-btn-active-border-color: #D76525;
+    --bs-btn-hover-bg: #D76525;
+    --bs-btn-hover-border-color: #D76525;
+    --bs-btn-active-color: #FFFF;
+    --bs-btn-hover-color: #FFFF;
+}

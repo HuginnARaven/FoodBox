@@ -1,0 +1,22 @@
+.supplierInfoPage{
+    color: white;
+    font-family: "InterBlack";
+}
+
+.supplierInfoPageContent{
+    background-color: #1E1E1E;
+    height: 750px;
+    overflow: auto;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px black;
+    border: solid #1E1E1E;
+}
+
+.supplierInfoMenusPage{
+    max-height: 645px;
+    overflow: auto;
+}
+
+.supplierInfoMenusPage h3{
+    color: #D76525;
+}

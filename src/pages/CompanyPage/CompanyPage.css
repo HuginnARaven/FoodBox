@@ -1,0 +1,22 @@
+.companyPage{
+}
+
+.nav-tabs .nav-link {
+    color: white;
+    font-family: "InterBlack";
+    text-shadow: 1px 1px 3px black;
+    background: #D76525 !important;
+}
+
+.nav-tabs .nav-link.active{
+    color: white !important;
+    background: #1E1E1E !important;
+}
+
+.nav {
+    --bs-nav-link-hover-color: white !important;
+}
+
+.nav-tabs {
+    --bs-nav-tabs-border-width: 0 !important;
+}

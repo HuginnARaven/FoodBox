@@ -1,0 +1,32 @@
+.navbarHeader{
+    background-color: #363636;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+.navbarHeader .nav-link{
+    color: #FFFFFF;
+    font-family: "InterBlack";
+    --bs-nav-link-hover-color: rgba(215, 101, 37, 0.6);
+    --bs-navbar-active-color: #D76525;
+}
+
+.navbarHeader .nav-link.active{
+    color: #D76525 !important;
+    font-family: "InterBlack";
+}
+
+.navbarHeader .logo{
+    color: #D76525;
+    font-family: "InterBlack";
+    text-shadow: 1px 1px 3px black;
+    --bs-navbar-brand-hover-color: rgba(215, 101, 37, 0.6);
+}
+
+.navbarHeader .dropdown-menu {
+    --bs-dropdown-link-color: #FFFFFF;
+    --bs-dropdown-link-hover-color: rgba(215, 101, 37, 0.6);
+    font-family: "InterBlack";
+    --bs-dropdown-bg: #363636;
+    --bs-dropdown-link-hover-bg: transparent;
+    --bs-dropdown-link-active-bg: transparent;
+}

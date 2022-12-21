@@ -1,0 +1,16 @@
+.supplierContractsPage{
+    background-color: #1E1E1E;
+    height: 750px;
+    overflow: auto;
+    color: white;
+    font-family: "InterBlack";
+}
+
+/*.supplierContractsPage .btn{*/
+/*    --bs-btn-bg: #D76525;*/
+/*    --bs-btn-hover-bg: rgba(215, 101, 37, 0.6);*/
+/*    --bs-btn-active-bg: transparent;*/
+/*    --bs-btn-active-border-color: transparent;*/
+/*    --bs-btn-hover-border-color: #D76525;*/
+/*    --bs-btn-border-color: transparent;*/
+/*}*/

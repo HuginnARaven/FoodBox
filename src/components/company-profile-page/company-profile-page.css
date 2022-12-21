@@ -1,0 +1,14 @@
+.companyProfilePage{
+    background-color: #1E1E1E;
+    height: 750px;
+    color: #FFFFFF;
+    font-family: "InterBlack";
+    font-size: 17px;
+}
+
+.companyProfilePage .btn{
+    background-color: #D76525;
+    border: transparent;
+    --bs-btn-hover-bg: #363636;
+    --bs-btn-hover-border-color: #363636;
+}
