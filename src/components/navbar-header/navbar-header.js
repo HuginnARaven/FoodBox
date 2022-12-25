@@ -5,17 +5,13 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './navbar-header.css';
 import {Link} from "react-router-dom";
 import FoodBox_logo from './../../assets/FoodBox_logo.png'
-import AuthModalFrom from "../auth-modal-from/auth-modal-from";
-import store from "../../store/store";
-import {auth, authSlice} from "../../store/auth/authSlice";
 import {useDispatch, useSelector} from "react-redux";
 import {logout} from "../../store/auth/authAction";
-import AuthModalFromTest from "../auth-modal-from_test/auth-modal-fromNew";
 import React from "react";
 import {Row} from "react-bootstrap";
 import RegisterModal from "../register-from/register-from";
 import LoginModal from "../login-from/login-from";
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation} from 'react-i18next';
 
 function NavbarProfileDropdown() {
     const dispatch = useDispatch();
@@ -58,7 +54,6 @@ const lngs = {
 function NavbarHeader() {
     const { t, i18n } = useTranslation();
 
-
     const isLogin = useSelector(state => state.user.is_authorized);
     return (
         <Navbar className="navbarHeader" expand="xxl">
@@ -74,7 +69,6 @@ function NavbarHeader() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link as={Link} to="/">{t('NavHeader.main')}</Nav.Link>
-                        <Nav.Link as={Link} to="/">FAQ</Nav.Link>
                     </Nav>
                     <Nav className="justify-content-end me-3">
                         <NavDropdown drop="start" title={t('NavHeader.language')} id="basic-nav-dropdown">

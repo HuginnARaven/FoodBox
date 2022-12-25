@@ -2,11 +2,9 @@ import React, {useEffect, useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './company-box-workers.css'
-import {Card, Col, FloatingLabel, Form, Row, Spinner} from "react-bootstrap";
+import {Card, Col, Form, Row} from "react-bootstrap";
 import {useDispatch, useSelector} from "react-redux";
-import {getWorkers} from "../../store/company/workers/workersAction";
-import {addBoxWorker, deleteBoxWorker, getBoxWorkers} from "../../store/company/boxes/boxesAction";
-import CompanyWorkersListItem from "../company-worker-list-item/company-worker-list-item";
+import {addBoxWorker, deleteBoxWorker} from "../../store/company/boxes/boxesAction";
 import {useTranslation} from "react-i18next";
 
 function BoxWorker(props) {
@@ -48,7 +46,9 @@ const BoxWorkers = (props) => {
 
     useEffect(() => {
         setOptionWorkers(wildWorkers);
-        selectWorker(wildWorkers[0].id)
+        if (Array.isArray(wildWorkers) && wildWorkers.length){
+            selectWorker(wildWorkers[0].id)
+        }
     }, [])
 
     // const workers = useSelector((state) => state.boxes.list.workers);

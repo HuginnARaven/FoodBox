@@ -14,7 +14,7 @@ function StartPage() {
             <Container fluid>
                 <Row className="mb-3 mt-3 p-4">
                     <Col className="text-center"><h2>{t('StartPage.important_title')}</h2></Col>
-                    <Col className="nullSpase"><h2></h2></Col>
+                    <Col className="nullSpase"></Col>
                 </Row>
                 <Row className="mb-3 mt-3">
                     <Col className="">
@@ -23,7 +23,7 @@ function StartPage() {
                     <Col className="aboutImg"><Image rounded={true} className="shadow" src={stolova}/></Col>
                 </Row>
                 <Row className="mb-3 mt-3 p-4">
-                    <Col className="nullSpase"><h2></h2></Col>
+                    <Col className="nullSpase"></Col>
                     <Col className="text-center"><h2>{t('StartPage.side_title')}</h2></Col>
                 </Row>
                 <Row className="mb-3 mt-3">

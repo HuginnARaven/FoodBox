@@ -2,8 +2,7 @@ import React, {useEffect, useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './company-contract-suppplier-info.css'
-import {Card, Col, FloatingLabel, Form, Row} from "react-bootstrap";
-import {Link} from "react-router-dom";
+import {Card, Col, Row} from "react-bootstrap";
 import {getSuppInfo} from "../../store/company/contracts/contractsAction";
 import {useDispatch} from "react-redux";
 import { useNavigate  } from "react-router-dom"

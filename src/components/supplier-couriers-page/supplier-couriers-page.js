@@ -1,11 +1,9 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect} from "react";
 import './supplier-couriers-page.css'
-import CompanyWorkersListItem from "../company-worker-list-item/company-worker-list-item";
 import Container from "react-bootstrap/Container";
 import CreateCourierFrom from "../create-courier-from/create-courier-from";
 import SupplerCourierListItem from "../suppler-courier-list-item/suppler-courier-list-item";
 import {useDispatch, useSelector} from "react-redux";
-import {getWorkers} from "../../store/company/workers/workersAction";
 import {Spinner} from "react-bootstrap";
 import {getCouriers} from "../../store/supplier/courieres/couriersAction";
 

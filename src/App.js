@@ -23,8 +23,8 @@ function App() {
             <NavbarHeader/>
             <Routes>
                 <Route path="/" element={<StartPage/>}/>
-                <Route path="/profile" element={userType == 'S' ?  <SupplierPage/> : (userType == 'C') ? <CompanyPage/> : <Navigate to="/" replace />}/>
-                <Route path="/company/search/supplier" element={(userType == 'C') ? <SupplierSearchPage/> : <Navigate to="/" replace />}/>
+                <Route path="/profile" element={userType === 'S' ?  <SupplierPage/> : (userType === 'C') ? <CompanyPage/> : <Navigate to="/" replace />}/>
+                <Route path="/company/search/supplier" element={(userType === 'C') ? <SupplierSearchPage/> : <Navigate to="/" replace />}/>
                 <Route path="/company/supplier/info" element={<SupplierInfoPage/>}/>
             </Routes>
         </div>

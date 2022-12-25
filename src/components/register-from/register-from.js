@@ -7,7 +7,6 @@ import {useDispatch, useSelector} from "react-redux";
 import {register} from "../../store/auth/authAction";
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {useTranslation} from "react-i18next";
-import {getUser} from "../../store/user/userAction";
 
 const RegisterModal = () => {
     const { t } = useTranslation();

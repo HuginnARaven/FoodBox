@@ -5,7 +5,6 @@ import ChangePaymentForm from "../change-payment-from/change-payment-from";
 import {Col, Form, Row} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import {useDispatch, useSelector} from "react-redux";
-import {register} from "../../store/auth/authAction";
 import {editUser} from "../../store/user/userAction";
 import {toast, ToastContainer} from "react-toastify";
 import {useTranslation} from "react-i18next";

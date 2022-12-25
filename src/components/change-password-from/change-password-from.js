@@ -1,10 +1,8 @@
-import {NavLink} from "react-router-dom";
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './change-password-from.css'
 import {useDispatch} from "react-redux";
-import {register} from "../../store/auth/authAction";
 import {changePassword} from "../../store/user/userAction";
 import {Form, FormControl} from "react-bootstrap";
 import {useTranslation} from "react-i18next";

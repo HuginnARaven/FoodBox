@@ -2,14 +2,11 @@ import React, {useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './supplier-menu-products.css'
-import {Card, Col, FloatingLabel, Form, Image, Row} from "react-bootstrap";
-import coffee from "../../assets/coffe.jpg";
+import {Card, Col, Form, Image, Row} from "react-bootstrap";
 import {useDispatch} from "react-redux";
 import {
-    createMenu,
     createMenuProduct,
     deleteMenuProduct,
-    editMenu,
     editMenuProduct
 } from "../../store/supplier/menus/menusAction";
 import {useTranslation} from "react-i18next";

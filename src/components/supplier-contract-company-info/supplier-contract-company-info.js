@@ -2,8 +2,7 @@ import React, {useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './supplier-contract-company-info.css'
-import {Card, Col, FloatingLabel, Form, Row} from "react-bootstrap";
-import {Link} from "react-router-dom";
+import {Card, Col, Row} from "react-bootstrap";
 import {useTranslation} from "react-i18next";
 
 const SupplierContractCompanyInfo = (props) => {

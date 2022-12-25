@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect} from "react";
 import './company-contracts-page.css'
 import Container from "react-bootstrap/Container";
 import CompanyContactListItem from "../company-contract-list-item/company-contract-list-item";

@@ -1,11 +1,9 @@
-import {NavLink} from "react-router-dom";
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './create-worker-from.css'
-import {Col, Form, Row} from "react-bootstrap";
+import {Form} from "react-bootstrap";
 import {useDispatch} from "react-redux";
-import {register} from "../../store/auth/authAction";
 import {createWorker} from "../../store/company/workers/workersAction";
 import {useTranslation} from "react-i18next";
 

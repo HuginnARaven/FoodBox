@@ -2,9 +2,8 @@ import React, {useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './edit-courier-from.css'
-import {Col, FloatingLabel, Form, Row} from "react-bootstrap";
+import {Col, Form, Row} from "react-bootstrap";
 import {useDispatch} from "react-redux";
-import {editWorker} from "../../store/company/workers/workersAction";
 import {editCourier} from "../../store/supplier/courieres/couriersAction";
 import {useTranslation} from "react-i18next";
 

@@ -2,12 +2,12 @@ import React, {useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './company-buy-box.css'
-import {Card, CardGroup, Col, FloatingLabel, Form, Row} from "react-bootstrap";
+import {Card, CardGroup, Form} from "react-bootstrap";
 import box_logo from "../../assets/FoodBox_logo.png"
-import {register} from "../../store/auth/authAction";
 import {useDispatch} from "react-redux";
 import {createBox} from "../../store/company/boxes/boxesAction";
 import {useTranslation} from "react-i18next";
+
 
 const CompanyBuyBoxForm = () => {
     const { t } = useTranslation();

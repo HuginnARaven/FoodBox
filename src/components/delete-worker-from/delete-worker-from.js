@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './delete-worker-from.css'
 import {Col, Form, Row} from "react-bootstrap";
-import {createWorker, deleteWorker} from "../../store/company/workers/workersAction";
+import {deleteWorker} from "../../store/company/workers/workersAction";
 import {useDispatch} from "react-redux";
 import {useTranslation} from "react-i18next";
 

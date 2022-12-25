@@ -5,7 +5,6 @@ import SupplierContactListItem from "../supplier-contract-list-item/supplier-con
 import {useDispatch, useSelector} from "react-redux";
 import {getSupplierContacts} from "../../store/supplier/contracts/contractsAction";
 import {Spinner} from "react-bootstrap";
-import {useTranslation} from "react-i18next";
 
 
 const SupplierContractsPage = () => {

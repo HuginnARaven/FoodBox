@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import './supplier-menu-list-item.css'
 import {Card, Col, Row} from "react-bootstrap";
 import Button from "react-bootstrap/Button";

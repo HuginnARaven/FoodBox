@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect} from "react";
 import './company-workers-page.css'
 import CompanyWorkersListItem from "../company-worker-list-item/company-worker-list-item";
 import CreateWorkerFrom from "../create-worker-from/create-worker-from";

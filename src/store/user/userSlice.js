@@ -1,5 +1,5 @@
 import {createSlice} from '@reduxjs/toolkit'
-import {getUser, login} from "./userAction";
+import {getUser} from "./userAction";
 import {logout} from "../auth/authAction";
 
 

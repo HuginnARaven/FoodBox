@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Modal from 'react-bootstrap/Modal';
 import './supplier-menu-info.css'
-import {Card, Col, FloatingLabel, Form, Image, Row} from "react-bootstrap";
+import {Card, Col, Image, Row} from "react-bootstrap";
 
 function MenuProduct(props) {
     const {name, description, picture} = props.product

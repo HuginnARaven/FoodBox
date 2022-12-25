@@ -1,11 +1,9 @@
-import {NavLink} from "react-router-dom";
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './create-courier-from.css'
-import {Col, Form, Row} from "react-bootstrap";
+import {Form} from "react-bootstrap";
 import {useDispatch} from "react-redux";
-import {createWorker} from "../../store/company/workers/workersAction";
 import {createCourier} from "../../store/supplier/courieres/couriersAction";
 import {useTranslation} from "react-i18next";
 
@@ -32,10 +30,6 @@ const CreateCourierFrom = () => {
         password2: password2,
         first_name: first_name,
         last_name: last_name,
-    }
-
-    const handleStart = () =>{
-        setUsername('')
     }
 
     const handleCourierFromSubmit = (e) => {

@@ -6,18 +6,34 @@ import CompanyBuyBoxForm from "../company-buy-box/company-buy-box";
 import {getBoxes} from "../../store/company/boxes/boxesAction";
 import {useDispatch, useSelector} from "react-redux";
 import {Spinner} from "react-bootstrap";
-import CompanyWorkersListItem from "../company-worker-list-item/company-worker-list-item";
+import {getWorkers} from "../../store/company/workers/workersAction";
 
 
 const CompanyBoxesPage = () => {
 
     const dispatch = useDispatch();
     const token = localStorage.getItem('access_token')
+    const [errors, setError] = useState([]);
 
     useEffect(() => {
-        // dispatch(getBoxes(token)).then((value) => setBoxes(value.payload));
-        dispatch(getBoxes(token))
-
+        const res = dispatch(getBoxes(token));
+        const res2 = dispatch(getWorkers(token));
+        res.then((value) => {
+            if (value.error){
+                let errorMsg = JSON.parse(value.payload)
+                setError(errorMsg)
+            }else {
+                setError([])
+            }
+        });
+        res2.then((value) => {
+            if (value.error){
+                let errorMsg = JSON.parse(value.payload)
+                setError(errorMsg)
+            }else {
+                setError([])
+            }
+        });
     }, [])
 
     const boxes = useSelector((state) => state.boxes.list);

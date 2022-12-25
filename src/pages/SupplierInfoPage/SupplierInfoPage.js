@@ -8,14 +8,6 @@ import {useDispatch} from "react-redux";
 import {getSuppInfo} from "../../store/company/contracts/contractsAction";
 import {useTranslation} from "react-i18next";
 
-function SupplierMenuCard() {
-    return (
-        <Card className="mt-3" onClick={"asd"}>
-            <h4 className="p-2 text-center">Morning menu</h4>
-        </Card>
-    )
-}
-
 
 function SupplierInfoPage() {
     const { t } = useTranslation();

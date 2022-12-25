@@ -1,5 +1,5 @@
 import {createSlice} from '@reduxjs/toolkit'
-import {getContacts, searchSupp} from "./contractsAction";
+import {getContacts} from "./contractsAction";
 
 
 export const contractsSlice = createSlice({

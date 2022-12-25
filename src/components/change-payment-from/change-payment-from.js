@@ -1,4 +1,3 @@
-import {NavLink} from "react-router-dom";
 import React, {useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
@@ -27,13 +26,6 @@ const ChangePaymentForm = () => {
                 </Modal.Header>
                 <Modal.Body>
                     <p className="fw-bold mb-4">Add new card:</p>
-
-                    {/*<div className="form-outline mb-auto">*/}
-                    {/*    <input type="text" id="formControlLgXsd"*/}
-                    {/*           className="form-control form-control-lg"/>*/}
-                    {/*    <label className="form-label" htmlFor="formControlLgXsd">Cardholder's*/}
-                    {/*        Name</label>*/}
-                    {/*</div>*/}
 
                     <div className="row mb-4">
                         <div className="col-7">

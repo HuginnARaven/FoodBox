@@ -3,7 +3,6 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import './delete-courier-from.css'
 import {Col, Form, Row} from "react-bootstrap";
-import {createWorker} from "../../store/company/workers/workersAction";
 import {deleteCourier} from "../../store/supplier/courieres/couriersAction";
 import {useDispatch} from "react-redux";
 import {useTranslation} from "react-i18next";

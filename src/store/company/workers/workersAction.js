@@ -1,7 +1,6 @@
 import {createAsyncThunk} from "@reduxjs/toolkit";
-import {companyAPI, supplierAPI} from "../../../utils/api";
-import {AddWorker, DeleteWorker, EditWorker, SetWorkers} from "./workersSlice";
-import {EditCourier, SetCouriers} from "../../supplier/courieres/couriersSlice";
+import {companyAPI} from "../../../utils/api";
+import {DeleteWorker, EditWorker, SetWorkers} from "./workersSlice";
 
 
 export const getWorkers = createAsyncThunk(

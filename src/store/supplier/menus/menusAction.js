@@ -7,7 +7,6 @@ import {
     DeleteMenuProduct,
     EditMenu,
     EditMenuProduct,
-    EditMenuProducts,
     SetMenus
 } from "./menusSlice";
 
