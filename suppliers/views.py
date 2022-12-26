@@ -127,6 +127,16 @@ class ResponseContractView(generics.RetrieveUpdateDestroyAPIView):
         serializer.save(is_approved=True)
 
 
+class GetAllOffersView(generics.ListAPIView):
+    queryset = Offer.objects.all()
+    serializer_class = AcceptOfferSerializer
+    permission_classes = [IsAuthenticated, IsSupplier]
+
+    def get_queryset(self):
+        qs = super().get_queryset()
+        return qs.filter(supplier=self.request.user.supplier)
+
+
 class ResponseOfferView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Offer.objects.all()
     serializer_class = AcceptOfferSerializer

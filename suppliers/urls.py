@@ -24,6 +24,7 @@ urlpatterns = [
     path('supplier/menu/<int:menu_id>/getproducts/', ProductGetAllView.as_view()),  # get
     path('supplier/responsecontract/<int:pk>/', ResponseContractView.as_view()),  # get, put, delete
     path('supplier/responseoffer/<int:pk>/', ResponseOfferView.as_view()),  # get, put, delete
+    path('supplier/offers/', GetAllOffersView.as_view()),  # get
     path('supplier/', include(courier_router.urls)),  # get, put, delete
     path('supplier/', include(contract_router.urls)),  # get, put, delete
     path('supplier/', include(menu_router.urls)),  # get, put, delete

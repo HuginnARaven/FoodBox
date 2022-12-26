@@ -34,11 +34,42 @@ class MenuSerializer(serializers.ModelSerializer):
         ]
 
 
+class GetOfferWorkerSerializer(serializers.ModelSerializer):
+    username = serializers.CharField(read_only=True, source='worker.username')
+    company_name = serializers.CharField(read_only=True, source='company.name')
+    company_description = serializers.CharField(read_only=True, source='company.description')
+    class Meta:
+        model = CompanyWorker
+        fields = ["id", 'username', "first_name", 'last_name', "company_name", "company_description"]
+
+
+class GetSupplierCourierSerializer(serializers.ModelSerializer):
+    username = serializers.CharField(read_only=True, source='courier.username')
+
+    class Meta:
+        model = SupplierCourier
+        fields = ["id", "username", "first_name", 'last_name', "rfid"]
+
+
 class AcceptOfferSerializer(serializers.ModelSerializer):
+    product = ProductSerializer(read_only=True)
+    status = serializers.CharField(read_only=True)
+    rating = serializers.IntegerField(read_only=True)
+    address = serializers.CharField(read_only=True, source="box.address")
+    worker = GetOfferWorkerSerializer(read_only=True)
+    courier_info = GetSupplierCourierSerializer(read_only=True, source="courier")
+
     class Meta:
         model = Offer
         fields = [
+            'id',
+            'status',
+            "product",
+            "address",
+            "worker",
             'courier',
+            "courier_info",
+            "rating",
         ]
 
     def update(self, instance, validated_data):
@@ -55,14 +86,6 @@ class AcceptOfferSerializer(serializers.ModelSerializer):
             return instance
         else:
             raise serializers.ValidationError({'ValidationError': 'Status incorrect'})
-
-
-class GetSupplierCourierSerializer(serializers.ModelSerializer):
-    username = serializers.CharField(read_only=True, source='courier.username')
-
-    class Meta:
-        model = SupplierCourier
-        fields = ["id", "username", "first_name", 'last_name', "rfid"]
 
 
 class GetSupplierContractsSerializer(serializers.ModelSerializer):
