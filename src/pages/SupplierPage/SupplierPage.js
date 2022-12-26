@@ -28,7 +28,7 @@ function SupplierPage() {
                         {renderPart === "contracts" ? <SupplierContractsPage/> : null}
                     </Tab>
                     <Tab eventKey="menus" title={t('SupplierPage.menus')}>
-                        {renderPart === "contracts" ? <SupplierMenusPage/> : null}
+                        {renderPart === "menus" ? <SupplierMenusPage/> : null}
                     </Tab>
                 </Tabs>
             </Container>

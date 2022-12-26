@@ -1,0 +1,16 @@
+.questionPage{
+    color: white;
+    font-family: "InterBlack";
+}
+
+.questionPageContent .accordion{
+    --bs-accordion-active-color: #D76525;
+    --bs-accordion-active-bg: #1E1E1E;
+    --bs-accordion-btn-bg: #1E1E1E;
+    --bs-accordion-btn-color: white;
+    --bs-accordion-color: white;
+    --bs-accordion-border-color: #1E1E1E;
+    --bs-accordion-btn-focus-border-color: #D76525;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.1rem rgba(215, 101, 37, 0.6);
+    --bs-accordion-bg: #363636;
+}

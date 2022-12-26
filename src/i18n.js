@@ -20,6 +20,13 @@ i18n
             en: {
                 translation: {
                     StartPage:{
+                        what_it_title:"What it is?",
+                        what_it_text:"Our software system is a platform for convenient delivery" +
+                            "food for small and medium-sized businesses. FoodBox is available on two languages: " +
+                            "Ukrainian and English. FoodBox it`s a cross-platform web program " +
+                            "with a convenient and easy-to-learn interface. Main" +
+                            "the motivation of the project is to create competition in the food delivery market for it" +
+                            "development.",
                         important_title: "Why it`s is important?",
                         important_text: "Workplaces in modern companies and business centers require the provision of high-quality food for employees. " +
                             "This is a component of social responsibility, creation of comfortable working conditions, health care and prevention of a number of occupational diseases. " +
@@ -33,6 +40,21 @@ i18n
                             "And if someone was late and left without lunch, or vice versa, on an urgent business trip and could not stop the order of his lunch. " +
                             "Now imagine a contractor who prepares food for many such offices. All this can negate the great idea of making the lives of colleagues better and easier. What to do? " +
                             "The FoodBox system for automating corporate catering, both when you only consume delicious meals and when you prepare, deliver and feed employees of offices, companies and enterprises.",
+                        why_title:"Why FoodBox?",
+                        why_text:"Analogues of FoodBox are various delivery services. But these services are aimed at " +
+                            "the mass consumer and not at commercial organizations. This has certain disadvantages " +
+                            "and inconveniences for the employees of these organizations, such as the inability " +
+                            "to order food for a certain time in advance and the need to personally pick " +
+                            "up the order from the courier.",
+                        what_prise_title:"What about monetization?",
+                        what_prise_text:"The first is the purchase of food delivery boxes by companies. " +
+                            "The second is advertising for food suppliers among companies that need them. " +
+                            "The third is an opportunity for owners or managers of organizations to by subscribe plan " +
+                            "for receiving more detailed information about their food supply.",
+                        who_clients_title:"Who is this system aimed at?",
+                        who_clients_text:"The main users of our software product are small and medium-sized companies " +
+                            "that cannot fully provide food for their employees, " +
+                            "and food suppliers who are looking for customers.",
                     },
                     NavHeader:{
                         main: "Main",
@@ -142,12 +164,41 @@ i18n
                         product_price: "Price",
                         add_product: "Add product",
                         picture: "Picture"
-                    }
+                    },
+                    Subscription:{
+                        subscription_title: "Subscriptions",
+                        standard_title: "Standard",
+                        premium_title: "Premium",
+                        workers_title: "Workers",
+                        workers_text_standard:"max 20 workers account(+3 for each box)",
+                        workers_text_premium:"unlimited workers account",
+                        contracts: "Contracts",
+                        contracts_text_standard:"max 5 unapproved contracts",
+                        contracts_text_premium:"max 15 unapproved contracts",
+                        boxes_title: "Box statistic",
+                        worker_history_title: "Worker offers history",
+                        couriers_title: "Couriers",
+                        couriers_text_standard:"max 10 couriers account",
+                        couriers_text_premium:"unlimited couriers account",
+                        offers_history_title: "Offers history",
+                        top_search_title: "Top palace in search",
+                        prise_standard:"free",
+                        prise_premium:"10$/month",
+                        set_premium: "Set to premium",
+                        set_standard: "Set to standard",
+                    },
                 }
             },
             ua: {
                 translation: {
                     StartPage:{
+                        what_it_title:"Що це таке?",
+                        what_it_text:"Наша програмна це платформа для зручного постачання" +
+                            "їжі малому та середньому бізнесу. FoodBox доступний двома мовами:" +
+                            "українською та англійською. FoodBox буде кросплатформеною веб-програмою " +
+                            "зі зручним і простим у освоєнні інтерфейсом. Головною" +
+                            "мотивацією проекту є створення конкуренції на ринку доставки їжі для його" +
+                            "розвитку.",
                         important_title: "Чому це важливо?",
                         important_text: "Робочі місця в сучасних компаніях та бізнес-центрах потребують забезпечення можливості якісного харчування співробітників. Це компонент соціальної відповідальності, " +
                             "створення комфортних умов роботи, турбота про здоров'я та запобігання цілої низки професійних захворювань. " +
@@ -161,6 +212,22 @@ i18n
                             "А якщо хтось запізнився і залишився без обіду, або навпаки, у терміновому відрядженні і не зміг зупинити замовлення свого обіду. " +
                             "Тепер уявіть підрядника який готує їжу для багатьох таких офісів. Все це може звести нанівець велику ідею зробити життя колег якісніше та простіше. Що ж робити? " +
                             "Система FoodBox для автоматизації корпоративного харчування і в разі, коли ви тільки споживаєте смачні страви, і в разі, коли ви їх готуєте, доставляєте та годуєте працівників офісів, компаній та підприємств.",
+                        why_title:"Чому саме FoodBox?",
+                        why_text:"Аналогами FoodBox є різноманітні служби доставки" +
+                            "Але ці служби орієнтовані на масового споживача а не на комерційні" +
+                            "організації. Це має певні недоліки та незручності для співробітників цих організацій, " +
+                            "наприклад неможливість замовити їжу на певний час заздалегідь " +
+                            "та необхідність особисто забирати замовлення у кур’єра.",
+                        what_prise_title:"Яка тут монетизація?",
+                        what_prise_text:"Перше це придбання боксів для доставки їжі компаніями. Другий це реклама " +
+                            "для постачальників їжі серед компаній які їх потребують. Третій це " +
+                            "можливість власникам або менеджерам організацій оформити підписку для " +
+                            "отримання більш детальної інформації про їхні спарави сотосовно їжі.",
+                        who_clients_title:"На кого оріентованя ця система?",
+                        who_clients_text:"Основними користувачами нашого програмного продукту" +
+                            "передбачаються малі та середні компанії, які не можуть повноцінно" +
+                            "забезпечити працівників їжею, та постачальники продовольства які шукають" +
+                            "для себе клієнтів.",
                     },
                     NavHeader:{
                         main: "Головна",
@@ -270,7 +337,29 @@ i18n
                         product_price: "Ціна",
                         add_product: "Додати продукт",
                         picture: "Зображення"
-                    }
+                    },
+                    Subscription:{
+                        subscription_title: "Підписки",
+                        standard_title: "Стандартна",
+                        premium_title: "Преміум",
+                        workers_title: "Працівники",
+                        workers_text_standard:"максимум 20 акаунтів працівників(+3 за кожен бокс)",
+                        workers_text_premium:"необмежена кількість акаунтів",
+                        contracts: "Контракти",
+                        contracts_text_standard:"максимум 5 непідтвердженних контрактів",
+                        contracts_text_premium:"максимум 15 непідтвердженних контрактів",
+                        boxes_title: "Статистика пристроїв",
+                        worker_history_title: "Істроія замовлень працівників",
+                        couriers_title: "Кур'єри",
+                        couriers_text_standard:"максимум 10 акаунтів кур'єрів",
+                        couriers_text_premium:"необмежена кількість акаунтів",
+                        offers_history_title: "Історія замовлень",
+                        top_search_title: "Високе місце в пошуку",
+                        prise_standard:"Безкоштовно",
+                        prise_premium:"10$/місяць",
+                        set_premium: "Обрати преміум",
+                        set_standard: "Обрати стандатну",
+                    },
                 }
             }
         }

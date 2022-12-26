@@ -29,7 +29,8 @@ function StartPage() {
                 <Row className="mb-3 mt-3">
                     <Col className="aboutImg"><Image rounded={true} className="shadow" src={zamovlennya}/></Col>
                     <Col>
-                        <h4>{t('StartPage.side_text')}
+                        <h4>
+                            {t('StartPage.side_text')}
                         </h4>
                     </Col>
                 </Row>
