@@ -9,6 +9,7 @@ import SupplierInfoPage from "./pages/SupplierInfoPage/SupplierInfoPage";
 import SupplierPage from "./pages/SupplierPage/SupplierPage";
 import {useDispatch, useSelector} from "react-redux";
 import {getUser} from "./store/user/userAction";
+import SubscriptionPage from "./pages/SubscriptionPage/SubscriptionPage";
 
 function App() {
     const dispatch = useDispatch();
@@ -26,6 +27,7 @@ function App() {
                 <Route path="/profile" element={userType === 'S' ?  <SupplierPage/> : (userType === 'C') ? <CompanyPage/> : <Navigate to="/" replace />}/>
                 <Route path="/company/search/supplier" element={(userType === 'C') ? <SupplierSearchPage/> : <Navigate to="/" replace />}/>
                 <Route path="/company/supplier/info" element={<SupplierInfoPage/>}/>
+                <Route path="/company/subscription" element={<SubscriptionPage/>}/>
             </Routes>
         </div>
     );

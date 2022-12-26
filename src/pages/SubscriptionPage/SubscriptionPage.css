@@ -1,0 +1,32 @@
+.subscriptionPage{
+    color: white;
+    font-family: "InterBlack";
+}
+
+.subscriptionPageContent{
+    background-color: #1E1E1E;
+    height: 750px;
+    overflow: auto;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px black;
+    border: solid #1E1E1E;
+}
+
+.subscriptionPageContent .card-header{
+    color: #D76525;
+    text-shadow: 1px 1px 3px #1E1E1E;
+}
+
+.subscriptionPageContent .card-title{
+    color:  rgba(215, 101, 37, 0.6);
+    text-shadow: 1px 1px 3px #1E1E1E;
+}
+
+.subscriptionPageContent .btn{
+    --bs-btn-bg: #D76525;
+    --bs-btn-hover-bg: rgba(215, 101, 37, 0.6);
+    --bs-btn-active-bg: transparent;
+    --bs-btn-active-border-color: transparent;
+    --bs-btn-hover-border-color: #D76525;
+    --bs-btn-border-color: transparent;
+}

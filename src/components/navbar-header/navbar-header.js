@@ -21,7 +21,7 @@ function NavbarProfileDropdown() {
             <NavDropdown.Item as={Link} to="/profile">
                 {t('NavHeader.profile')}
             </NavDropdown.Item>
-            <NavDropdown.Item as={Link} to="/profile">
+            <NavDropdown.Item as={Link} to="/company/subscription">
                 {t('NavHeader.subscription')}
             </NavDropdown.Item>
             <NavDropdown.Divider/>
@@ -69,6 +69,7 @@ function NavbarHeader() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link as={Link} to="/">{t('NavHeader.main')}</Nav.Link>
+                        <Nav.Link as={Link} to="/">FAQ</Nav.Link>
                     </Nav>
                     <Nav className="justify-content-end me-3">
                         <NavDropdown drop="start" title={t('NavHeader.language')} id="basic-nav-dropdown">
