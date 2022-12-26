@@ -2,4 +2,7 @@
     background-color: #1E1E1E;
     height: 750px;
     overflow: auto;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }

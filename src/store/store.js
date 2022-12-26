@@ -8,6 +8,7 @@ import couriersSliceReducer from "./supplier/courieres/couriersSlice";
 import supplierContractsSliceReducer from "./supplier/contracts/contractsSlice";
 import menusSliceReducer from "./supplier/menus/menusSlice";
 import searchContractsSliceReducer from "./company/searchContracts/searchContractsSlice";
+import offersSliceReducer from "./supplier/offers/offersSlice";
 
 export default configureStore({
     reducer: {
@@ -19,6 +20,7 @@ export default configureStore({
         searchContracts: searchContractsSliceReducer,
         couriers: couriersSliceReducer,
         supplierContracts: supplierContractsSliceReducer,
-        supplierMenus: menusSliceReducer
+        supplierMenus: menusSliceReducer,
+        supplierOffers: offersSliceReducer,
     },
 })

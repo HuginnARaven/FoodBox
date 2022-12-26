@@ -131,6 +131,7 @@ i18n
                         couriers: "Couriers",
                         contracts: "Contracts",
                         menus: "Menus",
+                        offers: "Offers",
                     },
                     Box:{
                         buy_box_btn_title: "By box",
@@ -187,6 +188,24 @@ i18n
                         set_premium: "Set to premium",
                         set_standard: "Set to standard",
                     },
+                    Offers:{
+                        status_title: "Status",
+                        status_sent: "Sent",
+                        status_accepted: "Accepted",
+                        status_delivered: "Delivered",
+                        status_got: "Got",
+                        deliver_title: "Deliver to",
+                        courier_title: "Courier",
+                        decline_btn: "Decline",
+                        accept_btn: "Accept",
+                        info_btn: "Info",
+                        sender_title: "Customer",
+                        content_title: "Content",
+                        total_cost_title: "Total cost",
+                        rating_title: "Rating",
+                        info_form_title: "Offer info form",
+                        accept_form_title: "Offer accept form",
+                    }
                 }
             },
             ua: {
@@ -304,6 +323,7 @@ i18n
                         couriers: "Кур'єри",
                         contracts: "Контракти",
                         menus: "Меню",
+                        offers: "Замовлення",
                     },
                     Box:{
                         buy_box_btn_title: "Придбати бокс",
@@ -359,6 +379,24 @@ i18n
                         prise_premium:"10$/місяць",
                         set_premium: "Обрати преміум",
                         set_standard: "Обрати стандатну",
+                    },
+                    Offers:{
+                        status_title: "Статус",
+                        status_sent: "Запит",
+                        status_accepted: "Прийнято",
+                        status_delivered: "Доставлено",
+                        status_got: "Отромиане",
+                        deliver_title: "Адреса доставки",
+                        courier_title: "Кур'єр",
+                        decline_btn: "Відхилити",
+                        accept_btn: "Прийняти",
+                        info_btn: "Інфо",
+                        sender_title: "Замовник",
+                        content_title: "Зміст",
+                        total_cost_title: "Загальна вартість",
+                        rating_title: "Оцінка",
+                        info_form_title: "Інформація про замовлення",
+                        accept_form_title: "Форма прийняття замовлення",
                     },
                 }
             }

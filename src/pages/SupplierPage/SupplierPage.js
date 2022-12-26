@@ -7,6 +7,7 @@ import SupplierCouriersPage from "../../components/supplier-couriers-page/suppli
 import SupplierContractsPage from "../../components/supplier-contracts-page/supplier-contracts-page";
 import SupplierMenusPage from "../../components/supplier-menus-page/supplier-menus-page";
 import {useTranslation} from "react-i18next";
+import SupplierOffersPage from "../../components/supplier-offers-page/supplier-offers-page";
 
 function SupplierPage() {
     const { t } = useTranslation();
@@ -29,6 +30,9 @@ function SupplierPage() {
                     </Tab>
                     <Tab eventKey="menus" title={t('SupplierPage.menus')}>
                         {renderPart === "menus" ? <SupplierMenusPage/> : null}
+                    </Tab>
+                    <Tab eventKey="offers" title={t('SupplierPage.offers')}>
+                        {renderPart === "offers" ? <SupplierOffersPage/> : null}
                     </Tab>
                 </Tabs>
             </Container>

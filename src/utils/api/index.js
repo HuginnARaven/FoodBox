@@ -319,4 +319,31 @@ export let supplierAPI = {
             }
         }).then(res => res.data);
     },
+
+    getSupplierOffers(token) {
+        const userToken = localStorage.getItem('access_token')
+        return baseApi2.get(`supplier/offers/`, {
+            headers: {
+                Authorization: "Token " + token || userToken
+            }
+        }).then(res => res.data);
+    },
+
+    acceptSupplierOffer(offerId, courierId) {
+        const userToken = localStorage.getItem('access_token')
+        return baseApi2.put(`supplier/responseoffer/${offerId}/`, {courier: courierId},{
+            headers: {
+                Authorization: "Token " + userToken
+            }
+        }).then(res => res.data);
+    },
+
+    declineSupplierOffer(offerId) {
+        const userToken = localStorage.getItem('access_token')
+        return baseApi2.delete(`supplier/responseoffer/${offerId}/`, {
+            headers: {
+                Authorization: "Token " + userToken
+            }
+        }).then(res => res.data);
+    },
 }
